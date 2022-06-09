@@ -1,0 +1,45 @@
+.viewport-login{
+  min-height: 100vh;
+  background-color: aquamarine;
+position: relative;
+}
+
+.loginParentDiv {
+    border: 1px solid black;
+    width: max-content;
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    background-color: #f1f1f1;
+  }
+  
+  .loginParentDiv .input {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline-color: transparent;
+    width: 200px;
+  }
+  
+  .loginParentDiv button {
+    width: 60%;
+    height: 48px;
+    /* border-color: transparent; */
+    background-color: #002f34;
+    color: whitesmoke;
+    font-weight: 900;
+  }
+  .loginParentDiv button:hover {
+    background-color: white;
+    color: #002f34;
+    border: 2px solid #002f34;
+  }
+  
+  .loginParentDiv a {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }

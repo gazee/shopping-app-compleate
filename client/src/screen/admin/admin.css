@@ -1,0 +1,43 @@
+.viewport-admin{
+  background-color: white;
+  min-height: 130vh;
+  position: relative;
+}
+.centerDiv {
+    border: 1px solid black;
+    width: max-content;
+    padding: 50px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    margin-top: 100px;
+    background-color: #f1f1f1;
+  }
+  .input {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline-color: transparent;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .uploadBtn {
+    margin-top: 30px;
+    width: 50%;
+    height: 48px;
+    /* border-color: transparent; */
+    background-color: #002f34;
+    color: whitesmoke;
+    font-weight: 900;
+  }
+  .uploadBtn:hover {
+    background-color: white;
+    color: #002f34;
+    border: 2px solid #002f34;
+  }
+  label{
+      margin-left: 10px;
+  }
