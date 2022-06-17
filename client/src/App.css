@@ -1,0 +1,17 @@
+
+.body{
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  min-height: 100vh;
+  background-color: darkcyan;
+}
+.container{
+  background-color: #61dafb;
+  position: absolute;
+  top: 0px;
+}
+.fullviewpoer{
+  /* background-color: rgb(142, 212, 21); */
+  width: 100%;
+  position: static;
+}

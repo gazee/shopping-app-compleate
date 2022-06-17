@@ -1,0 +1,60 @@
+
+ .container{
+     float: left;
+     background-color: rgb(223, 223, 199);
+     width: 100%;
+     position: relative;
+     margin: 3px;
+ }
+ 
+ .container img{
+     width: 75px;
+    height: 75px;
+    margin: 20px;
+    float: left;
+    }
+/* input{
+        width: 40px ;
+        background-color: aliceblue;
+    } */
+.image_cart_item{
+    float: left;
+}
+.details{
+    float: left;
+    /* background-color: aqua; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 320px;
+}
+.add{
+    margin: 2px;
+    width: 200px;
+    height: 35px;
+    float: left;
+    /* background-color: brown; */
+}
+.add-select{
+    margin: 2px;
+    float: left;
+    background-color: aliceblue;
+    width: 20px;
+    height: 20px;
+}
+.add  button{
+    margin: 2px;
+float: left;
+width: 10px;
+height: 25px;
+/* border-radius: 6px; */
+}
+.add span{
+    left: 2pxpx;
+    position: relative;
+    float: left;
+}
+.container close_cart_item{
+    position: relative;
+    right: 20px;
+    top: 0px;
+}

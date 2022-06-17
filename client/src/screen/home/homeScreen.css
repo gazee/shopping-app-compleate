@@ -1,0 +1,46 @@
+.moreView {
+    margin: 16px 16px 24px;
+    padding: 16px 16px 32px;
+    background-color: #e2e8eb;
+    border-radius: 4px;
+    position: static;
+    /* margin-top: 120px;  */
+    
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* background-color: #fff; */
+    margin-bottom: 8px;
+  }
+  .heading :first-child {
+    font-size: 24px;
+    color: #002f34;
+  }
+  
+  .heading :last-child {
+    font-size: 14px;
+    color: #002f34;
+  }
+  
+  .recommendations .cards {
+    display: flex;
+  }
+  
+  .moreView .cards {
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .recommendations {
+    margin: 16px 16px 24px;
+  }
+  
+  .recommendations .heading span {
+    font-size: 24px;
+    color: #002f34;
+  }
